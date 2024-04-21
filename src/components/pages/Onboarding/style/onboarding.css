@@ -1,0 +1,55 @@
+.tab{
+
+padding: 1.45vh 1.7vw;
+    border-radius: 0 0 30px 30px;
+    display: inline-block;
+    height:6.761vh;
+    width:23.264vw;
+    background-color: white;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    display: inline-flex;
+}
+.tb{
+    align-content:space-evenly;
+width:7.245vw;
+    border:none;
+height:1vh;
+background-image: var(--gradient);
+}
+.tbc{
+    border-radius: 100%;
+    height:4.25vh;
+    width:2.25vw;
+    border:0.35vw solid var(--tbc-color);
+}
+.registration{
+    height: 100vh;
+    width: 100vw;
+    
+    background-color: var(--bcolor); 
+}
+.rgstrcrd{
+    height:59.709vh;
+    width:44.05vw ;
+    position: relative;
+    top:25%;
+    left:28%;
+    align-items: center;
+}
+
+
+  .next{
+height:fit-content;
+  }
+  .crdcontent{
+    font-size:1.6vw;
+    margin: 1.5vw;
+    padding: 1.5vw;
+    height: 38.5vh;
+    align-items: center;
+    vertical-align: middle;
+    color: white;
+    
+  }

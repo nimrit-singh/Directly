@@ -1,0 +1,41 @@
+.si {
+    pointer-events: all;
+    margin:5% 5%;
+    font-size: 2.1vw;
+    padding:5%;
+    align-items: center;
+    display:block;
+    align-content: center;
+    height: 9.766vh !important;
+    width: 15.37vw !important;
+    position: absolute;
+    bottom:5%;
+    left:25%;
+}
+
+.onboard {
+    height: 59.08vh !important;
+    width: 44.05vw !important;
+   position: relative;
+
+   top:-10%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+
+.ctatext{
+    width:40.05vw;
+    position: absolute;
+    top:20%;
+    left: 5%;
+    align-content: center;
+    vertical-align: middle;
+}
+.register{
+    height: 100vh;
+    width: 100vw;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+}

@@ -1,0 +1,43 @@
+/* .reg{
+
+}
+.sig{
+
+} */
+.t2{
+    align-content: center;
+    margin:0 0.5vw;
+    border-radius: 3vh;
+    height: 8.1vh;
+    width:16.542vw;
+}
+.t2:hover{
+    font-size:1.5vw;
+    color:white;
+    background-image: var(--gradient);
+}
+.t2::selection{
+    
+        font-size:1.5vw;
+        color:white;
+        background-image: var(--gradient);
+    
+}
+.next{
+    height: 8.524vh;
+    position: absolute;
+    left:35%;
+    bottom: 25%;
+    align-items: center;
+    width:12.694vw;
+}
+.phn{
+    margin: 0 2vw;
+    height:5.296vh;
+    width:23.894vw;
+border-radius:1vh;
+}
+.check{
+    width:5vw;
+    height:5vh;
+}

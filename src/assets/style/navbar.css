@@ -1,0 +1,72 @@
+.navbar {
+
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 4.3vh;
+    display: flex;
+    overflow: hidden;
+    background-color: rgba(41, 252, 51, 0.863);
+    box-sizing: border-box;
+    height: 9vh;
+    width: 66vw;
+    border: 0.10vw solid rgba(0, 2, 100, 0.863);
+    box-shadow:
+        inset 0 0.25vw  rgb(255 255 255 /60%);
+    border-radius: 3.1vh;
+    z-index: 1;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,:link,:visited{
+    
+    color:var(--textcolor-p);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0 0.5vw;
+    font-size: 1.539vw;
+    font-weight: 600;
+    align-items: center;
+    vertical-align: middle;
+    align-content: center;
+    height: inherit;
+    width: 11.104vw;
+}
+.first{
+    width: 8.1vw;
+}
+.first:hover,
+.fifth:hover,::selection {
+    
+    font-size: 1.739vw;
+    cursor: pointer;
+    /* animation: fad duration timing-function delay iteration-count direction fill-mode; */
+    color: white;
+    display: block;
+    background-color:var(--scolor);
+}
+
+.second:hover,
+.third:hover,
+.fourth:hover {
+    
+    font-size: 1.739vw;
+    cursor: pointer;
+    color: white;
+    display: block;
+    border-radius: 2.1vh;
+    background-color:var(--scolor2);
+}
+
+.first:hover {
+    border-radius: 2.07vh 0 2.07vh 1.39vw;
+}
+
+.fifth:hover {
+    border-radius: 0 1.39vw 2.07vh 1.39vw;
+}

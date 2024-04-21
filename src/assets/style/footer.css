@@ -1,0 +1,125 @@
+
+.container{
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    height:114.538vh;
+    width:100vw;
+    position: relative;
+   align-self: center;
+   align-items: center;
+border-top-left-radius:7.3vh;
+border-top-right-radius:7.3vh;
+background-color: white;
+color:#000;
+justify-content: center;
+}
+table{
+    font-size: 1.089vw;
+    color:var(--textcolor-p);
+
+}
+.textgrd{
+    font-size: 2.4vw;
+    background: -webkit-linear-gradient(-45deg,#0E62D5,#46C310);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer_content{
+    
+    
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+justify-content: center;
+    vertical-align: middle;
+   align-self: center;
+   align-items: center;
+    width:68.822vw;
+}
+.foot{
+    max-width: 100vw;
+    height:4.1vh;
+    background-image: var(--gradient);
+}
+.footer_logo{
+    height:8.30vh ;
+    width: 5.44vw;
+}
+.banner{
+    position:absolute;
+    left: auto;
+    top:12%;
+    margin:0.06vw;
+    display:inline-block;
+    vertical-align: middle;
+}
+#socials{
+    align-content: center;
+    vertical-align: middle;
+}
+#title{
+    font-size: 5.71vw;
+    background: -webkit-linear-gradient(-45deg,#0E62D5,#46C310);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+th,td{
+
+    width: fit-content;
+    text-align: left;
+}
+th{
+    font-size: 1.361vw;
+}
+#subtitle{
+    font-size: 2.42vw;
+    
+    background: -webkit-linear-gradient(-45deg,#0E62D5,#46C310);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.badge{
+    margin: 2vh 0 0 0 auto;
+    justify-content: space-between;
+height: fit-content;
+    width:68.822vw;
+    position:absolute;
+    bottom: 14vh;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+ .social{ 
+    border-radius: 1.09vw;
+    box-shadow: 1px 1px rgb(0, 0, 0 / 50%);
+     width: 33.492vw !important;
+}
+.app{ border-radius: 2.09vw;
+    box-shadow: 1px 1px rgb(0, 0, 0 / 50%);
+    width:23.748vw !important;
+    height: fit-content;
+} 
+.qr{
+    border-radius: 2.09vw;
+height:12.461vh;
+width:8.169vw;
+}
+.apple-store{
+    margin: 0.68vw;
+    border-radius: 2.09vw;
+    height:6.023vh;
+    width:10.211vw;
+}
+.links{
+    border-spacing: 9.159vw 0.38vh;
+    border-collapse: separate ;
+}
+.gplay-store{
+    margin: 0.68vw;
+    border-radius: 2.09vw;
+    height:6.023vh;
+    width:10.211vw;
+}

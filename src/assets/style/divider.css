@@ -1,0 +1,5 @@
+.divider{
+    width:100vw;
+    transform: rotate(-5deg);
+    display: block;
+}

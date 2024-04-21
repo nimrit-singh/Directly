@@ -1,0 +1,25 @@
+.logo {
+
+
+    position: absolute;
+    left: 2%;
+    width: 6.12vw;
+    height: 11.319vh;
+}
+
+ .header{
+    padding: 0.653vw 1.038vh 0.653vw 1.038vh;
+    display: flex;
+    color: var(--textcolor-s);
+    align-content: center;
+    justify-content:center;
+    vertical-align: middle;
+    width: 90vw;
+    height: 16vh;
+    position: relative;
+    top: 2.5vh;
+    left:auto;
+    right:10%;
+    transform: translate(20%,0);
+
+}

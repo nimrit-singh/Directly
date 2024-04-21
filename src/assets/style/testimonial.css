@@ -1,0 +1,115 @@
+:root {
+    --translate: 40%;
+}
+
+.testimonialwrap {
+    box-sizing: content-box;
+    overflow: hidden;
+    padding: 4vh 0;
+}
+    .testimonial {
+        position: relative;
+        left: -40%;
+        align-items: center;
+        align-content: center;
+        vertical-align: middle;
+        display: inline-block;
+        height: 26vh;
+        width: 100vw;
+        white-space: nowrap;
+        width: fit-content;
+        box-sizing: content-box;
+    }
+
+    .tsection {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    @-webkit-keyframes ticker {
+        0% {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            visibility: visible;
+        }
+
+        100% {
+            -webkit-transform: translate3d(var(--translate), 0, 0);
+            transform: translate3d(var(--translate), 0, 0);
+        }
+    }
+
+    @keyframes ticker {
+        0% {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            visibility: visible;
+        }
+
+        100% {
+            -webkit-transform: translate3d(var(--translate) 0, 0);
+            transform: translate3d(var(--translate), 0, 0);
+        }
+    }
+
+    .tcard {
+        display: inline-block;
+        white-space: nowrap;
+        position: relative;
+        margin: 2.6vw;
+        height: 25.5vh !important;
+        width: 20.9vw !important;
+        border-radius: 2.07vh;
+        background: #fff;
+        box-shadow: inset 0 0.15vw rgba(46, 43, 43, 0.6);
+    }
+
+    .testimonial:hover {
+        cursor: pointer;
+
+        animation: ticker 5s linear infinite alternate;
+
+        transition: 5s all ease;
+        -webkit-animation: ticker 5s linear infinite alternate;
+    }
+
+    .body {
+        position: absolute;
+        top: 0.75rem;
+        left: 25%;
+        color: #46C310;
+    }
+
+    .ppic {
+        height: 7.8vh !important;
+        width: 4.129vw !important;
+        border-radius: 45%;
+        padding: 0.3rem;
+        position: absolute;
+        left: -1.5vw;
+        border: 0.2vw solid rgb(27, 107, 255);
+        box-shadow: inset 0 0.2vw rgb(255 255 255 /70%);
+        top: -2.5vh;
+    }
+
+
+
+
+    .feedback {
+        position: absolute;
+        bottom: 50%;
+        left: 25%;
+        overflow: auto;
+        color: #0E62D5;
+        font-size: medium;
+        vertical-align: middle;
+    }
+    
+    .ttitle{
+        text-align: left;
+        position:relative;
+        left:5%;
+        width:44.08vw;
+        font-size: 4.357vw;
+        color:rgba(0, 2, 100, 0.863);
+    }

@@ -1,0 +1,26 @@
+*{
+    font-weight: bold;
+
+}
+.number{
+    border-radius: 20%;
+    margin:1vw;
+    height:5vh;
+    width:1.8vw;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.otp{
+    display: block;
+}
+.actbtn{
+    position: absolute;
+    left:35%;
+    bottom: 25%;
+    align-items: center;
+    width:12.694vw;
+    height:7.542vh;
+}

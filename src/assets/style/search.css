@@ -1,0 +1,37 @@
+.bt {
+    border: 0;
+    background: transparent;
+
+}
+
+.icon {
+    cursor: pointer;
+    opacity: 70%;
+    filter:invert(100%);
+    height: 9.242vh;
+    width: 5.813vw;
+}
+
+.group {
+    align-content: center;
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    width: 52.972vw;
+    height: 9.242vh;
+}
+
+.search {
+    text-align: center;
+    vertical-align: middle;
+    margin: 1vw auto;
+    font-size: 2.4vw;
+    border: 0;
+    opacity: 70%;
+    backdrop-filter:blur(2px);
+    background-color: white;
+    padding: 5rem auto;
+    width: 46.044vw;
+    height: 9.055vh;
+    border-radius: 3.1rem;
+}
