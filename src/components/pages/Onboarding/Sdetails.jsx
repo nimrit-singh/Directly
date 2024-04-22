@@ -1,5 +1,7 @@
 import React from "react";
+import './style/sdetails.css'
 import Signbutton from "../../parts/Signbutton";
+import './style/pdetails.css'
 const Sdetails = () =>  { return(<> 
 <div className="slist"></div>
 

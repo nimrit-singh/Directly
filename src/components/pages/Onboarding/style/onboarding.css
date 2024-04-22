@@ -34,14 +34,18 @@ background-image: var(--gradient);
     height:59.709vh;
     width:44.05vw ;
     position: relative;
-    top:25%;
+    top:15%;
     left:28%;
     align-items: center;
 }
 
 
-  .next{
-height:fit-content;
+  .next{ position: absolute;
+    left:35%;
+    bottom: 25%;
+    align-items: center;
+    width:12.694vw;
+    height:7.542vh;
   }
   .crdcontent{
     font-size:1.6vw;

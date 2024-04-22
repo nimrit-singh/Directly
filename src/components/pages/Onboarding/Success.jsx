@@ -8,12 +8,12 @@ const Success = () => {
         
         <div className="success icon">
             <img src={done} className="suic"></img>
-        </div>
+        </div><div>
         <h3>Congratulations</h3>
-        <h2>Welcome to Directly family</h2>
+        <h2>Welcome to Directly family</h2></div>
         <div className="pbtn">
-        <Signbutton name="Next"/></div>
-       <h5>Directing to dashboard in t secs</h5>
+        <Signbutton name="Next"/></div><div>
+       <h5>Directing to dashboard in t secs</h5></div>
         </>
     )
 }

@@ -1,21 +1,27 @@
 import React from "react"
+import "./style/pdetails.css"
 import Signbutton from "../../parts/Signbutton"
 const Pdetails = () =>  { return(<>
-
-<h5>* indicates important</h5>
- <form>
-      <label>*Full Name:
-      <input type="text"/></label>
+<div className="pdetails">
+<h6>* indicates important</h6>
+ <form id="Pdetails">
+      <label>Full Name*</label><br/>
+      <input className="fullname" type="text"/><div className="adinfo">
+      <span><label>*Date of Birth:</label><br/>
+      <input className="dob" type="date"/></span>
       
-      <label>*Date of Birth:
-      <input type="text"/></label>
-      
-      <label>*Age:
-      <input type="number"/></label>
-       
-      <label>*Gender:
-      <input type="text"/></label>
+      <span className="ag">
+      <label>Age*</label><br/>
+      <input className="age" type="number"/></span></div>
 </form>
+<label>Gender</label>
+<select className="gender" form="pdetails">
+      <option>Male</option>
+      <option>Female</option>
+      <option>Others</option>
+</select>
+</div>
+
 <div className="pbtn">
 <Signbutton name="Next"/></div>
 </>)

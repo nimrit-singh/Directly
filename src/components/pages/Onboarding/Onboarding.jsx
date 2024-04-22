@@ -21,10 +21,10 @@ const Onboarding = () => {
          <div className='tbc'></div>
          </div>
       <div className='crdcontent'>
-      {/* <Pdetails/> //logic for changing the form */}
+      {/* <Pdetails/>  */}
       {/* <Sdetails/> */}
-      {/* <Vdetails/>    */}
-      <Success/>
+      <Vdetails/>   
+      {/* <Success/> */}
       </div>
       </Card>
     </div>

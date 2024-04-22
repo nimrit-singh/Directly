@@ -1,0 +1,39 @@
+.pbtn{
+    position: absolute;
+    left:35%;
+    bottom: 10%;
+    align-items: center;
+    width:12.694vw;
+    height:7.542vh;
+}
+
+.pdetails{
+    font-size: 1.15vw;
+    border:1px solid black;
+    align-content: space-evenly;
+    vertical-align: middle;
+    width:25vw;
+    position:absolute;
+    left:20%;
+
+}
+.fullname{
+    width:16.442vw;
+}
+.adinfo{
+display: flex;
+width:16vw;
+}
+.age{
+    width:2.5vw;
+}
+.gender{
+    width:5vw;
+}
+.ag{
+    margin:0 1vw;
+}
+.dob{
+    
+    margin:0 1vw;
+}
